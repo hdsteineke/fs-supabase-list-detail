@@ -93,8 +93,10 @@ footer {
 .planet-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .planet {
     box-shadow: var(--shadow);
     padding: 20px;
+    width: 300px;
 }

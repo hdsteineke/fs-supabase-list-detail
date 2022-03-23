@@ -10,3 +10,14 @@ export async function getPlanets() {
 
     return response.body;
 }
+
+
+export async function getPlanet(id) {
+    const response = await client
+        .from('Planets')
+        .select('*')
+        .match({ id: id })
+        .single();
+
+    return response.body;
+}
