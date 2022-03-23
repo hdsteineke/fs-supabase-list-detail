@@ -90,6 +90,10 @@ footer {
     box-shadow: var(--shadow);
 }
 
+.planet-container {
+    display: flex;
+    flex-direction: row;
+}
 .planet {
     box-shadow: var(--shadow);
     padding: 20px;
