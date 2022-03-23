@@ -9,8 +9,7 @@ export function renderPlanets(somePlanet) {
 
     nameEl.textContent = somePlanet.planet;
     imgEl.src = somePlanet.image;
-    a.href = `./detail/?id=${somePlanet.id}`;
-    console.log(`hello world`);
+    a.href = `./planet-detail/?id=${somePlanet.id}`;
     
 
     planetEl.append(nameEl, imgEl);
