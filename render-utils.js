@@ -33,9 +33,9 @@ export function renderPlanetDetail(somePlanet) {
 
     nameEl.textContent = somePlanet.planet;
     imgEl.src = somePlanet.image;
-    colorEl.textContent = somePlanet.color;
-    revolutionEl.textContent = somePlanet.revolution;
-    traitsEl.textContent = somePlanet.traits;
+    colorEl.textContent = 'Color: ' + somePlanet.color;
+    revolutionEl.textContent = 'Revolution: ' + somePlanet.revolution + ' days';
+    traitsEl.textContent = 'Traits: ' + somePlanet.traits;
 
     planetEl.append(nameEl, imgEl, colorEl, revolutionEl, traitsEl);
 

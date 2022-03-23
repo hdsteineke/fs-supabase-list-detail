@@ -98,5 +98,12 @@ footer {
 .planet {
     box-shadow: var(--shadow);
     padding: 20px;
-    width: 300px;
+    width: 325px;
+    text-align: center;
+}
+
+.planet img {
+    width: 200px;
+    height: 175px;
+    border-radius: 50%;
 }
